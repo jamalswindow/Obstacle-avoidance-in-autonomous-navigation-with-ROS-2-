@@ -74,8 +74,7 @@ Deploy and test the algorithm on a real-world TurtleBot3 robot.
 
 ## Contributors
 
-Md Maruf Hossain
-Moushumi Parvin Tonny
+Md Jamal Uddin
 
 ## References
 
