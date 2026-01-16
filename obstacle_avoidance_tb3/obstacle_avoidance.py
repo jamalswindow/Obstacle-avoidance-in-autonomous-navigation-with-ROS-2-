@@ -17,7 +17,20 @@ class ObstacleAvoidance(Node):
 
     def scan_callback(self, msg):
         """Process LIDAR data and avoid obstacles"""
-        pass
+        ranges = msg.ranges
+        front_range = min(min(ranges[:30] + ranges[-30:]), 10.0)  # Check front area
+
+        twist = Twist()
+        if front_range < 0.5:  # If an obstacle is closer than 0.5m
+            self.get_logger().info("Obstacle detected! Turning left...")
+            twist.linear.x = 0.0
+            twist.angular.z = 0.5  # Turn left
+        else:
+            self.get_logger().info("Moving forward...")
+            twist.linear.x = 0.2  # Move forward
+            twist.angular.z = 0.0
+
+        self.cmd_vel_pub.publish(twist)
 
 def main(args=None):
     rclpy.init(args=args)
@@ -28,3 +41,4 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+
