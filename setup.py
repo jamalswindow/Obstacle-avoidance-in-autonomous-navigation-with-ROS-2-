@@ -24,6 +24,7 @@ setup(
     entry_points={
         'console_scripts': [
             'obstacle_avoidance = obstacle_avoidance_tb3.obstacle_avoidance:main',
+            'navigation_metrics = obstacle_avoidance_tb3.navigation_metrics:main',
         ],
     },
 )
