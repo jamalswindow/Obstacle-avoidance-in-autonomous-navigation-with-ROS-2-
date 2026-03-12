@@ -1,0 +1,11 @@
+Approach: teb
+Total Time: 190.1 s
+Distance Traveled: 6.57 m
+Min Clearance: 0.182 m
+Avg Clearance: 0.372 m
+Avg Linear Velocity: 0.108 m/s
+Avg Angular Velocity: 0.510 rad/s
+Collision Count: 0
+Recovery Count: 6
+Rotation Events: 9
+Samples: 278

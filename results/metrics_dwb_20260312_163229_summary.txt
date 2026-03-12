@@ -1,0 +1,11 @@
+Approach: dwb
+Total Time: 581.0 s
+Distance Traveled: 12.06 m
+Min Clearance: 0.163 m
+Avg Clearance: 0.334 m
+Avg Linear Velocity: 0.102 m/s
+Avg Angular Velocity: 0.463 rad/s
+Collision Count: 0
+Recovery Count: 253
+Rotation Events: 41
+Samples: 742

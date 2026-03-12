@@ -1,0 +1,11 @@
+Approach: mppi
+Total Time: 205.2 s
+Distance Traveled: 0.00 m
+Min Clearance: 0.498 m
+Avg Clearance: 0.514 m
+Avg Linear Velocity: 0.000 m/s
+Avg Angular Velocity: 0.000 rad/s
+Collision Count: 0
+Recovery Count: 0
+Rotation Events: 0
+Samples: 330

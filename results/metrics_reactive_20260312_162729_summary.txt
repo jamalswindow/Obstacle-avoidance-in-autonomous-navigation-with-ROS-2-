@@ -1,0 +1,11 @@
+Approach: reactive
+Total Time: 243.0 s
+Distance Traveled: 10.17 m
+Min Clearance: 0.285 m
+Avg Clearance: 0.489 m
+Avg Linear Velocity: 0.116 m/s
+Avg Angular Velocity: 0.243 rad/s
+Collision Count: 0
+Recovery Count: 0
+Rotation Events: 4
+Samples: 433
